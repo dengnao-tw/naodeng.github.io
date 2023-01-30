@@ -3,7 +3,63 @@
   
   <url>
     <loc>https://naodeng.tech/categories/</loc>
-    <lastmod>2023-01-18T20:37:52+08:00</lastmod>
+    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/post/</loc>
+    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/tags/</loc>
+    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/tags/%E6%B5%8B%E8%AF%95%E7%BB%8F%E5%8E%86/</loc>
+    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/tags/%E6%B5%8B%E8%AF%95%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/</loc>
+    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/tags/%E5%B7%A5%E4%BD%9C%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/post/30-days-of-agile-testing/</loc>
+    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,34 +73,6 @@
   
   <url>
     <loc>https://naodeng.tech/post/playwright-get-started/</loc>
-    <lastmod>2023-01-18T20:37:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://naodeng.tech/post/</loc>
-    <lastmod>2023-01-18T20:37:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://naodeng.tech/tags/</loc>
-    <lastmod>2023-01-18T20:37:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://naodeng.tech/</loc>
-    <lastmod>2023-01-18T20:37:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://naodeng.tech/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2023-01-18T20:37:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
