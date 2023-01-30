@@ -13,7 +13,7 @@
       <pubDate>Wed, 18 Jan 2023 20:37:52 +0800</pubDate>
       
       <guid>http://localhost:1313/post/playwright-get-started/</guid>
-      <description>安装 Install 非 VS Code 编辑器安装 新建项目文件 使用命令行工具进入新建的项目文件夹 输入命令进行项目初始化 npm init playwright@latest 按照提示进行项目初始化 安装完成后的目录结构为</description>
+      <description>下面的信息是对 playwright 自动化测试框架的新手入门介绍。如果你想要学习更多关于 playwright 自动化测试框架的信息，请参阅它的文档。运行测试：打开测试界面，选择&amp;q</description>
     </item>
     
   </channel>

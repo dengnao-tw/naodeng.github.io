@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Nao" /><meta name="description" content="测试数据驱动 js 格式测试数据驱动 简介 数据以 js 格式存储，使用 js 的 import 方法导入使用 使用方法 新建测试数据 js 文件 示例：在项目的 cypress/integration 文件夹下新建 testData 目录，然后" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Nao" /><meta name="description" content="下面的信息是自动化测试框架学习第四篇数据驱动方法封装参数化和测试框架的介绍。 在自动化测试框架学习中，有很多方法可以用来驱动测试框架。例如，数" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -40,18 +40,18 @@
 
 
 <meta property="og:title" content="Cypress UI 自动化测试框架学习（4）- 数据驱动，方法封装参数化和测试框架" />
-<meta property="og:description" content="测试数据驱动 js 格式测试数据驱动 简介 数据以 js 格式存储，使用 js 的 import 方法导入使用 使用方法 新建测试数据 js 文件 示例：在项目的 cypress/integration 文件夹下新建 testData 目录，然后" />
+<meta property="og:description" content="下面的信息是自动化测试框架学习第四篇数据驱动方法封装参数化和测试框架的介绍。 在自动化测试框架学习中，有很多方法可以用来驱动测试框架。例如，数" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/post/cypress-demo4/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-07-08T09:49:24+08:00" />
 <meta property="article:modified_time" content="2022-07-08T09:49:24+08:00" />
 <meta itemprop="name" content="Cypress UI 自动化测试框架学习（4）- 数据驱动，方法封装参数化和测试框架">
-<meta itemprop="description" content="测试数据驱动 js 格式测试数据驱动 简介 数据以 js 格式存储，使用 js 的 import 方法导入使用 使用方法 新建测试数据 js 文件 示例：在项目的 cypress/integration 文件夹下新建 testData 目录，然后"><meta itemprop="datePublished" content="2022-07-08T09:49:24+08:00" />
+<meta itemprop="description" content="下面的信息是自动化测试框架学习第四篇数据驱动方法封装参数化和测试框架的介绍。 在自动化测试框架学习中，有很多方法可以用来驱动测试框架。例如，数"><meta itemprop="datePublished" content="2022-07-08T09:49:24+08:00" />
 <meta itemprop="dateModified" content="2022-07-08T09:49:24+08:00" />
-<meta itemprop="wordCount" content="3175">
+<meta itemprop="wordCount" content="3317">
 <meta itemprop="keywords" content="自动化测试,cypress," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Cypress UI 自动化测试框架学习（4）- 数据驱动，方法封装参数化和测试框架"/>
-<meta name="twitter:description" content="测试数据驱动 js 格式测试数据驱动 简介 数据以 js 格式存储，使用 js 的 import 方法导入使用 使用方法 新建测试数据 js 文件 示例：在项目的 cypress/integration 文件夹下新建 testData 目录，然后"/>
+<meta name="twitter:description" content="下面的信息是自动化测试框架学习第四篇数据驱动方法封装参数化和测试框架的介绍。 在自动化测试框架学习中，有很多方法可以用来驱动测试框架。例如，数"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -131,7 +131,7 @@
         <div class="post-category">
             <a href="/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"> 软件测试 </a>
             </div>
-          <span class="more-meta"> 约 3175 字 </span>
+          <span class="more-meta"> 约 3317 字 </span>
           <span class="more-meta"> 预计阅读 7 分钟 </span>
         
       </div>
@@ -170,7 +170,10 @@
   </div>
 </div>
     <div class="post-content">
-      <h2 id="测试数据驱动">测试数据驱动</h2>
+      <p>下面的信息是自动化测试框架学习第四篇数据驱动方法封装参数化和测试框架的介绍。
+在自动化测试框架学习中，有很多方法可以用来驱动测试框架。例如，数据驱动方法封装参数化和测试框架。这两个方法都可以将测试框架的数据处理和预设环境等现有模型结合起来。这样就可以方便地开发、测试和运行新的测试框架。</p>
+<!-- more -->
+<h2 id="测试数据驱动">测试数据驱动</h2>
 <h3 id="js-格式测试数据驱动">js 格式测试数据驱动</h3>
 <h4 id="简介">简介</h4>
 <p>数据以 js 格式存储，使用 js 的 import 方法导入使用</p>
