@@ -6,6 +6,7 @@
     <description>Recent content in cypress on 分享一些自己的笔记和感悟</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>naodeng.tech</copyright>
     <lastBuildDate>Fri, 08 Jul 2022 09:49:24 +0800</lastBuildDate><atom:link href="https://naodeng.tech/tags/cypress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cypress UI 自动化测试框架学习（1）- 上手</title>
