@@ -3,21 +3,70 @@
   
   <url>
     <loc>https://naodeng.tech/categories/</loc>
-    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
+    <lastmod>2023-01-30T13:54:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://naodeng.tech/post/</loc>
-    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
+    <lastmod>2023-01-30T13:54:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://naodeng.tech/tags/</loc>
-    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
+    <lastmod>2023-01-30T13:54:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/</loc>
+    <lastmod>2023-01-30T13:54:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/tags/%E5%A5%BD%E6%96%87%E7%BF%BB%E8%AF%91/</loc>
+    <lastmod>2023-01-30T13:54:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/categories/%E5%A5%BD%E6%96%87%E7%BF%BB%E8%AF%91/</loc>
+    <lastmod>2023-01-30T13:54:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/post/9-practices-that-haunt-developers-working-with-scrum/</loc>
+    <lastmod>2023-01-30T13:54:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/tags/%E6%95%8F%E6%8D%B7-scrum/</loc>
+    <lastmod>2023-01-30T13:54:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2023-01-30T13:54:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/categories/%E7%A0%94%E5%8F%91%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2023-01-30T13:54:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,13 +80,6 @@
   
   <url>
     <loc>https://naodeng.tech/tags/%E6%B5%8B%E8%AF%95%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2023-01-30T12:40:22+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://naodeng.tech/</loc>
     <lastmod>2023-01-30T12:40:22+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
