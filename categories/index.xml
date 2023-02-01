@@ -7,13 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>naodeng.tech</copyright>
-    <lastBuildDate>Mon, 30 Jan 2023 19:16:20 +0800</lastBuildDate><atom:link href="https://naodeng.tech/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Feb 2023 18:23:55 +0800</lastBuildDate><atom:link href="https://naodeng.tech/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>好文翻译</title>
       <link>https://naodeng.tech/categories/%E5%A5%BD%E6%96%87%E7%BF%BB%E8%AF%91/</link>
-      <pubDate>Mon, 30 Jan 2023 19:16:20 +0800</pubDate>
+      <pubDate>Wed, 01 Feb 2023 18:23:55 +0800</pubDate>
       
       <guid>https://naodeng.tech/categories/%E5%A5%BD%E6%96%87%E7%BF%BB%E8%AF%91/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>研发管理</title>
+      <link>https://naodeng.tech/categories/%E7%A0%94%E5%8F%91%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Wed, 01 Feb 2023 18:23:55 +0800</pubDate>
+      
+      <guid>https://naodeng.tech/categories/%E7%A0%94%E5%8F%91%E7%AE%A1%E7%90%86/</guid>
       <description></description>
     </item>
     
@@ -23,15 +32,6 @@
       <pubDate>Mon, 30 Jan 2023 19:16:20 +0800</pubDate>
       
       <guid>https://naodeng.tech/categories/%E8%81%8C%E4%B8%9A%E7%94%9F%E6%B6%AF/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>研发管理</title>
-      <link>https://naodeng.tech/categories/%E7%A0%94%E5%8F%91%E7%AE%A1%E7%90%86/</link>
-      <pubDate>Mon, 30 Jan 2023 13:54:58 +0800</pubDate>
-      
-      <guid>https://naodeng.tech/categories/%E7%A0%94%E5%8F%91%E7%AE%A1%E7%90%86/</guid>
       <description></description>
     </item>
     
