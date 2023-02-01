@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>敏捷测试的 30 天挑战 - 分享一些自己的笔记和感悟</title>
+  <title>Cypress UI 自动化测试框架学习（5）- 命令大全 - 分享一些自己的笔记和感悟</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Nao" /><meta name="description" content="文章介绍 30 天敏捷测试挑战" /><meta name="keywords" content="naodeng, dengnao, nao, naodeng.tech, nao, 软件测试, 自动化测试, 敏捷测试" />
+<meta name="author" content="Nao" /><meta name="description" content="文章介绍 UI 自动化测试框架学习（5）- 命令大全" /><meta name="keywords" content="naodeng, dengnao, nao, naodeng.tech, nao, 软件测试, 自动化测试, 敏捷测试" />
 
 
 <meta name="baidu-site-verification" content="a9ccac71d6f95040ce100a854bbd3c90" />
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.109.0 with theme even" />
 
 
-<link rel="canonical" href="https://naodeng.tech/post/30-days-of-agile-testing/" />
+<link rel="canonical" href="https://naodeng.tech/post/cypress-demo5/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,19 +39,19 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="敏捷测试的 30 天挑战" />
-<meta property="og:description" content="文章介绍 30 天敏捷测试挑战" />
+<meta property="og:title" content="Cypress UI 自动化测试框架学习（5）- 命令大全" />
+<meta property="og:description" content="文章介绍 UI 自动化测试框架学习（5）- 命令大全" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://naodeng.tech/post/30-days-of-agile-testing/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2023-01-30T12:40:22+08:00" />
-<meta property="article:modified_time" content="2023-01-30T12:40:22+08:00" />
-<meta itemprop="name" content="敏捷测试的 30 天挑战">
-<meta itemprop="description" content="文章介绍 30 天敏捷测试挑战"><meta itemprop="datePublished" content="2023-01-30T12:40:22+08:00" />
-<meta itemprop="dateModified" content="2023-01-30T12:40:22+08:00" />
-<meta itemprop="wordCount" content="1155">
-<meta itemprop="keywords" content="工作思考,测试相关,测试经历," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="敏捷测试的 30 天挑战"/>
-<meta name="twitter:description" content="文章介绍 30 天敏捷测试挑战"/>
+<meta property="og:url" content="https://naodeng.tech/post/cypress-demo5/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-05-12T16:40:11+08:00" />
+<meta property="article:modified_time" content="2022-05-12T16:40:11+08:00" />
+<meta itemprop="name" content="Cypress UI 自动化测试框架学习（5）- 命令大全">
+<meta itemprop="description" content="文章介绍 UI 自动化测试框架学习（5）- 命令大全"><meta itemprop="datePublished" content="2022-05-12T16:40:11+08:00" />
+<meta itemprop="dateModified" content="2022-05-12T16:40:11+08:00" />
+<meta itemprop="wordCount" content="1364">
+<meta itemprop="keywords" content="自动化测试,cypress," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Cypress UI 自动化测试框架学习（5）- 命令大全"/>
+<meta name="twitter:description" content="文章介绍 UI 自动化测试框架学习（5）- 命令大全"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -125,14 +125,14 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">敏捷测试的 30 天挑战</h1>
+      <h1 class="post-title">Cypress UI 自动化测试框架学习（5）- 命令大全</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2023-01-30 </span>
+        <span class="post-time"> 2022-05-12 </span>
         <div class="post-category">
             <a href="/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"> 软件测试 </a>
             </div>
-          <span class="more-meta"> 约 1155 字 </span>
+          <span class="more-meta"> 约 1364 字 </span>
           <span class="more-meta"> 预计阅读 3 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
@@ -143,10 +143,9 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#cypress-ui-自动化测试框架学习5--命令大全">Cypress UI 自动化测试框架学习（5）- 命令大全</a>
       <ul>
-        <li><a href="#规则是什么">规则是什么？</a></li>
-        <li><a href="#30-天敏捷测试列表">30 天敏捷测试列表</a></li>
+        <li><a href="#命令大全">命令大全</a></li>
       </ul>
     </li>
   </ul>
@@ -154,151 +153,90 @@
   </div>
 </div>
     <div class="post-content">
-      <p>如果你的项目是采用敏捷测试，那么欢迎加入很棒的 30 天敏捷测试挑战。</p>
-<!-- more -->
-<p>以下是 30 个挑战的列表，每月每天一个，打印下面的列表，把它保存在某个地方。打印出来。把它贴在墙上。让我们这样做吧！</p>
-<h2 id="规则是什么">规则是什么？</h2>
-<p>目标是尽可能多地的完成挑战。您可以在自己的时间范围和能力范围内做到这一点。</p>
-<p>您可能有图像可以分享，博客文章，视频，状态更新，无论它是什么！来参加吧！</p>
-<p>以下是分享进度的方法：</p>
+      <h1 id="cypress-ui-自动化测试框架学习5--命令大全">Cypress UI 自动化测试框架学习（5）- 命令大全</h1>
+<h2 id="命令大全">命令大全</h2>
 <ul>
-<li>在微博和朋友圈上 - 使用**#30DaysOfTesting**标签</li>
+<li>and：创建断言</li>
+<li>as：创建别名</li>
+<li>blur：失去焦点</li>
+<li>check：选中 check 或者 radio</li>
+<li>children：获取一组 DOM 元素中每个元素的子元素</li>
+<li>clear：清除 input 或者 textarea 的值</li>
+<li>clearCookie：清除特定的浏览器 cookie</li>
+<li>clearCookies：清除浏览器的所有 cookie</li>
+<li>clearLocalStorage：清除 localstorage 的数据</li>
+<li>click：点击 DOM 元素</li>
+<li>clock：覆盖全局与时间相关的函数</li>
+<li>closest：获取与选择器匹配的第一个 DOM 元素</li>
+<li>contains：获取包含文本的 DOM 元素</li>
+<li>dblclick：双击 DOM 元素</li>
+<li>debug：设置调试器并记录上一个命令产生的内容</li>
+<li>document：获取 <code>window.document</code> 对象</li>
+<li>each：迭代数组结构</li>
+<li>end：结束一系列命令</li>
+<li>eq：在元素数组中获取特定索引的 DOM 元素</li>
+<li>exec：执行系统命令</li>
+<li>filter：获取特定选择器匹配的元素</li>
+<li>find：查找特定选择器的特定后代元素</li>
+<li>first：获取一组 DOM 元素中的第一个 DOM 元素</li>
+<li>fixture：加载文件中的数据集</li>
+<li>focus：使一个 DOM 元素获取焦点</li>
+<li>focused：获取当前获取焦点的 DOM 元素</li>
+<li>get：通过选择器或者别名获取一个或者多个 DOM 元素</li>
+<li>getCookie：获取浏览器的特定 cookie</li>
+<li>getCookies：获取浏览器的所有 cookie</li>
+<li>go：前进或者后退</li>
+<li>hash：获取当前页面地址的哈希值</li>
+<li>hover：<strong>不存在这个命令</strong></li>
+<li>invoke：在前边生成的主题上调用函数</li>
+<li>its：获取前边生成的主题的属性值</li>
+<li>last：获取一组 DOM 元素的最后一个 DOM 元素</li>
+<li>location：获取活动页面的 <code>window.location</code> 对象</li>
+<li>log：打印 cypress 日志信息</li>
+<li>next：获取紧接的下一个兄弟 DOM 元素</li>
+<li>nextAll：获取所有兄弟 DOM 元素</li>
+<li>nextUntil：获取一组匹配的 DOM 元素中的每个后续兄弟元素，不包括提供的元素</li>
+<li>not：过滤 DOM 元素</li>
+<li>parent：获取父元素</li>
+<li>parents：获取所有的父元素</li>
+<li>parentsUntil：获取所有的父元素，不包括提供的元素</li>
+<li>pause：暂停执行 cypress 命令</li>
+<li>prev：获取前一个兄弟节点</li>
+<li>prevAll：获取前边的所有兄弟节点</li>
+<li>prevUntil：获取前边所有的兄弟节点，不包括提供的元素</li>
+<li>readFile：读取文件内容</li>
+<li>reload：重新加载页面</li>
+<li>request：发送 HTTP 请求</li>
+<li>root：获取页面根节点</li>
+<li>route：管理网络请求的行为</li>
+<li>screenshot：生成截图</li>
+<li>scrollIntoView：将元素滚动到视图中</li>
+<li>scrollTo：滚动到特定位置</li>
+<li>select：选择 select 中的 option</li>
+<li>server：启动服务器开始讲响应路由到 <code>cy.route()</code> 和 <code>cy.request()</code></li>
+<li>setCookie：设置浏览器 cookie</li>
+<li>should：创建断言，同 <code>and()</code></li>
+<li>siblings：获取兄弟 DOM 元素</li>
+<li>spread：将数组扩展为多个参数</li>
+<li>spy：包装方法，记录函数的调用和参数</li>
+<li>stub：替换函数，记录其用法并控制其行为</li>
+<li>submit：提交一个表单</li>
+<li>task：通过 <code>task</code> 插件，在 Node.js 中执行代码</li>
+<li>then：使用上一个命令产生的结果</li>
+<li>tick：移动时间</li>
+<li>title：获取活动页面的 <code>document.title</code></li>
+<li>trigger：触发 DOM 元素上的事件</li>
+<li>type：给 DOM 元素输入内容</li>
+<li>uncheck：取消选中复选框</li>
+<li>url：获取当前活动页面的 URL</li>
+<li>viewport：控制应用程序的屏幕大小和方向</li>
+<li>visit：访问远程 URL</li>
+<li>wait：等待方法</li>
+<li>window：获取当前活动窗口的 <code>window</code> 对象</li>
+<li>within：将后续命令限制在此元素内</li>
+<li>wrap：产生传递给 <code>.wrap()</code> 的对象</li>
+<li>writeFile：写入指定内容到文件</li>
 </ul>
-<h2 id="30-天敏捷测试列表">30 天敏捷测试列表</h2>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Day 1</td>
-<td>Buy an agile testing related book and share something you&rsquo;ve learnt by day 30 <br>买一本敏捷测试相关的书，并在第 30 天结束时分享你的所学</td>
-</tr>
-<tr>
-<td>Day 2</td>
-<td>Create a mindmap, document, diagram or sketchnote about what you think agile testing is<br>用图表或文档的方式列出你理解的敏捷测试</td>
-</tr>
-<tr>
-<td>Day 3</td>
-<td>Find a video on YouTuBe about agile testing, then watch it!<br>看一个敏捷测试的视频</td>
-</tr>
-<tr>
-<td>Day 4</td>
-<td>Read the agile manifesto and reflect on the implications for your role<br>读敏捷宣言，并反思对你角色的影响</td>
-</tr>
-<tr>
-<td>Day 5</td>
-<td>Pair with a developer on a feature<br>跟 Dev pair</td>
-</tr>
-<tr>
-<td>Day 6</td>
-<td>Map out what your exploratory testing looks like, compare it to what other testers do<br>列出你理解的探索式测试，并与其他人员的进行比较</td>
-</tr>
-<tr>
-<td>Day 7</td>
-<td>Find a visual way of representing your tests - e.g. A mind map, diagram, model, etc<br>找一个可视化的方式展示你的测试</td>
-</tr>
-<tr>
-<td>Day 8</td>
-<td>Speak to a developer about a bug you found instead of loging it in the tracking system<br>跟 dev 直接说你发现的 bug，而不是在 bug 管理系统里记录</td>
-</tr>
-<tr>
-<td>Day 9</td>
-<td>Pair whth a developer on a code review. Can you identify any risks?<br>参加 dev 的 code review。你能定位任何的风险吗？</td>
-</tr>
-<tr>
-<td>Day 10</td>
-<td>Learn where the application logs are and how to read them.<br>了解应用程序的 log 记录在哪里，并学习看 log。</td>
-</tr>
-<tr>
-<td>Day 11</td>
-<td>Find out what customers are saying about your product. What did you learn?<br>了解客户对你的产品的评价。从中学到了什么？</td>
-</tr>
-<tr>
-<td>Day 12</td>
-<td>What test documentation does your team have? How can you improve it?<br>你的团队有什么样的测试文档？你觉得可以怎么改进一下？</td>
-</tr>
-<tr>
-<td>Day 13</td>
-<td>Learn to use a tool that your developers use - e.g. an IDE<br>学习使用 Dev 在用的工具</td>
-</tr>
-<tr>
-<td>Day 14</td>
-<td>How can you deliver greater value to your customer?<br>如何能够交付更多的价值给客户？</td>
-</tr>
-<tr>
-<td>Day 15</td>
-<td>How can you make your testing processes (more) lean?<br>如何能让你的测试流程更加精益？</td>
-</tr>
-<tr>
-<td>Day 16</td>
-<td>What barriers do you feel exist in testing in agile?<br>你感觉敏捷测试中存在什么障碍？</td>
-</tr>
-<tr>
-<td>Day 17</td>
-<td>Map out your current team structure. How does it compare to other teams?<br>绘制出您当前的团队结构。它与其他团队相比如何？</td>
-</tr>
-<tr>
-<td>Day 18</td>
-<td>How can you make testing jobs easier?<br>如何让测试工作变得更轻松？</td>
-</tr>
-<tr>
-<td>Day 19</td>
-<td>How can you make jobs for your team easier?<br>如何让你的团队工作更轻松？</td>
-</tr>
-<tr>
-<td>Day 20</td>
-<td>Investigate what is in your and your team&rsquo;s tool kit<br>调查你和你团队使用的工具有哪些</td>
-</tr>
-<tr>
-<td>Day 21</td>
-<td>How are you managing your testing, is it really agile?<br>你如何管理你的测试，真的敏捷吗？</td>
-</tr>
-<tr>
-<td>Day 22</td>
-<td>Find out what testing is being done by other team members.<br>了解其他团队成员正在进行的测试</td>
-</tr>
-<tr>
-<td>Day 23</td>
-<td>What agile strategies are there for managing tests?<br>有哪些管理测试的敏捷策略？</td>
-</tr>
-<tr>
-<td>Day 24</td>
-<td>Look for a task that can be automated.<br>找一个可以自动化的 task.</td>
-</tr>
-<tr>
-<td>Day 25</td>
-<td>What can&rsquo;t you automate? Communicate that to your team<br>什么是你不能自动化的？跟团队沟通一下</td>
-</tr>
-<tr>
-<td>Day 26</td>
-<td>What does your Test Plan look like, what format do you use?<br>你的测试计划什么样的，使用的什么格式？</td>
-</tr>
-<tr>
-<td>Day 27</td>
-<td>Look into zero bug tolerance, is this something your team could do?<br>了解 bug 零容忍，这是你的团队可以做的吗？</td>
-</tr>
-<tr>
-<td>Day 28</td>
-<td>What learning culture exist in your company? How can you contribute to it?<br>公司的学习文化是什么样的？你如何为此贡献？</td>
-</tr>
-<tr>
-<td>Day 29</td>
-<td>What columns do you have on your work tracker or kanban board?<br>你们的看板上有哪些 column？</td>
-</tr>
-<tr>
-<td>Day 30</td>
-<td>What action does your team take on a red build?<br>build 红了团队会采取什么 action？</td>
-</tr>
-<tr>
-<td>Day 31</td>
-<td>BONUS: Debrief your whole team on your last session of testing<br>跟整个团队汇报你的测试</td>
-</tr>
-</tbody>
-</table>
 
     </div>
 
@@ -310,7 +248,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2023-01-30
+        2022-05-12
         
     </span>
   </p>
@@ -319,18 +257,17 @@
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/%E5%B7%A5%E4%BD%9C%E6%80%9D%E8%80%83/">工作思考</a>
-          <a href="/tags/%E6%B5%8B%E8%AF%95%E7%9B%B8%E5%85%B3/">测试相关</a>
-          <a href="/tags/%E6%B5%8B%E8%AF%95%E7%BB%8F%E5%8E%86/">测试经历</a>
+          <a href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/">自动化测试</a>
+          <a href="/tags/cypress/">cypress</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/9-practices-that-haunt-developers-working-with-scrum/">
+        <a class="prev" href="/post/playwright-get-started/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">好文翻译：困扰开发人员使用 Scrum 的 9 个实践</span>
+            <span class="prev-text nav-default">Playwright Get Started</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        <a class="next" href="/post/playwright-get-started/">
-            <span class="next-text nav-default">Playwright Get Started</span>
+        <a class="next" href="/post/cypress-demo4/">
+            <span class="next-text nav-default">Cypress UI 自动化测试框架学习（4）- 数据驱动，方法封装参数化和测试框架</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
