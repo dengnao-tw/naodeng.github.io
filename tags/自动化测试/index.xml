@@ -18,6 +18,15 @@
     </item>
     
     <item>
+      <title>Cypress UI 自动化测试框架学习（6）- 用例编辑和脚本录制工具 Cypress Studio 介绍</title>
+      <link>https://naodeng.tech/post/cypress-demo6/</link>
+      <pubDate>Sat, 11 Jun 2022 18:17:02 +0800</pubDate>
+      
+      <guid>https://naodeng.tech/post/cypress-demo6/</guid>
+      <description>Cypress Studio 提供了一种在测试运行程序中生成测试的可视化方法，通过记录与被测应用程序的交互。支持.click（）、.type（）、.check（）、.</description>
+    </item>
+    
+    <item>
       <title>Cypress UI 自动化测试框架学习（5）- 命令大全</title>
       <link>https://naodeng.tech/post/cypress-demo5/</link>
       <pubDate>Thu, 12 May 2022 16:40:11 +0800</pubDate>
@@ -60,15 +69,6 @@
       
       <guid>https://naodeng.tech/post/cypress-demo1/</guid>
       <description>下面的信息是对 Cypress 自动化测试框架的新手入门介绍。如果你想要学习更多关于 playwright 自动化测试框架的信息，请参阅它的文档。运行测试：打开测试界面，选择&amp;q</description>
-    </item>
-    
-    <item>
-      <title>Cypress UI 自动化测试框架学习（6）- 用例编辑和脚本录制工具 Cypress Studio 介绍</title>
-      <link>https://naodeng.tech/post/cypress-demo6/</link>
-      <pubDate>Fri, 11 Feb 2022 18:17:02 +0800</pubDate>
-      
-      <guid>https://naodeng.tech/post/cypress-demo6/</guid>
-      <description>Cypress Studio 提供了一种在测试运行程序中生成测试的可视化方法，通过记录与被测应用程序的交互。支持.click（）、.type（）、.check（）、.</description>
     </item>
     
   </channel>

@@ -150,7 +150,14 @@
   
   <url>
     <loc>https://naodeng.tech/tags/cypress/</loc>
-    <lastmod>2022-05-12T16:40:11+08:00</lastmod>
+    <lastmod>2022-06-11T18:17:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://naodeng.tech/post/cypress-demo6/</loc>
+    <lastmod>2022-06-11T18:17:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -186,13 +193,6 @@
   <url>
     <loc>https://naodeng.tech/post/cypress-demo1/</loc>
     <lastmod>2022-05-05T09:49:24+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://naodeng.tech/post/cypress-demo6/</loc>
-    <lastmod>2022-02-11T18:17:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
