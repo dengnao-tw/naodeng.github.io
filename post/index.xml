@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>naodeng.tech</copyright>
-    <lastBuildDate>Mon, 06 Feb 2023 18:34:53 +0800</lastBuildDate><atom:link href="https://naodeng.tech/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Feb 2023 22:19:54 +0800</lastBuildDate><atom:link href="https://naodeng.tech/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>新技术分享：Mac OS 下 edge 浏览器开启新 UI</title>
+      <link>https://naodeng.tech/post/edge-enablenew-ui/</link>
+      <pubDate>Wed, 15 Feb 2023 22:19:54 +0800</pubDate>
+      
+      <guid>https://naodeng.tech/post/edge-enablenew-ui/</guid>
+      <description>打开 edge 浏览器 在地址栏输入命令 edge://flags/ 在 flags 的页面输入 11 进行搜索 在搜索结果下选择“Show Windows 11 visual effects in title bar and toolbar”将状态变更为启用 重启浏览器，</description>
+    </item>
+    
     <item>
       <title>好文翻译：我做过的最好和最坏的决定</title>
       <link>https://naodeng.tech/post/the-best-and-worst-decisions-ive-ever-made/</link>
